@@ -1,0 +1,6 @@
+target
+.idea
+uniport.properties
+*.iml
+/wildfly/services/crypto-service/src/test/resources/crypto-service-test.properties
+/angular/psp-frontend/package-lock.json
