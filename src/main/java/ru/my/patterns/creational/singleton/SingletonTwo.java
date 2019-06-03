@@ -1,4 +1,4 @@
-package ru.my.templates.creational.singleton;
+package ru.my.patterns.creational.singleton;
 
 public class SingletonTwo {
     private static SingletonTwo instance;
