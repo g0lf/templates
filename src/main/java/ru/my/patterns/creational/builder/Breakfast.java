@@ -1,12 +1,12 @@
 package ru.my.patterns.creational.builder;
 
-public class Breakfast {
+class Breakfast {
 
-    public String drink;
-    public int eggs;
-    public String girlName;
-    public boolean needBread;
-    public boolean needMilk;
+    private String drink;
+    private int eggs;
+    private String girlName;
+    private boolean needBread;
+    private boolean needMilk;
 
     public String getDrink() {
         return drink;

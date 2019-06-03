@@ -1,6 +1,6 @@
 package ru.my.patterns.creational.builder;
 
-public class BreakfastBuilder {
+class BreakfastBuilder {
 
     private Breakfast breakfast;
 
