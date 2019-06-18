@@ -1,5 +1,8 @@
 package ru.my.patterns.creational.builder;
 
+/**
+ *  порождающий шаблон проектирования предоставляет способ создания составного объекта.
+ */
 class BreakfastBuilder {
 
     private Breakfast breakfast;
