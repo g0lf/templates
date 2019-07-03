@@ -1,6 +1,5 @@
 package ru.my.patterns.creational.factory;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +16,11 @@ public class FishFactory implements AbstractBeingFactory {
     }
 
     public void go() {
-        throw new NotImplementedException();
+        throw new RuntimeException();
     }
 
     public void sit() {
-        throw new NotImplementedException();
+        throw new RuntimeException();
     }
 
     public void hunt() {
