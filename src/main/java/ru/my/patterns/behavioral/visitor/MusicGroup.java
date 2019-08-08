@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ *  поведенческий шаблон проектирования, описывающий операцию,
+ *  которая выполняется над объектами других классов.
+ *  При изменении visitor нет необходимости изменять обслуживаемые классы.
+ */
 public abstract class MusicGroup {
 
     public abstract void accept(Visitor v);
